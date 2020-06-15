@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: darkslategrey;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: silver;
+}
+
+body {
+    background-color: royalblue;
+}
+
+main {
+    height: calc(100vh - 80px);
+    width: 50%;
+    margin: 0px auto;
+    padding: 40px 30px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    background-color: orange;
+    font-size: 18px;
+}
