@@ -3,6 +3,8 @@
 
     $censor = $_GET["badword"];
 
+    $lunghezza_testo = "Lunghezza testo: " . strlen($testo_principale);
+
     $testo_corretto = str_replace($censor, "***", $testo_principale);
 ?>
 
@@ -21,6 +23,9 @@
             <p>
                 <?php echo $testo_corretto ?>
             </p>
+            <h2>
+                <?php echo $lunghezza_testo ?>
+            </h2>
         </main>
     </body>
 </html>
