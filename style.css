@@ -32,3 +32,12 @@ main {
     background-color: orange;
     font-size: 18px;
 }
+
+h2 {
+    padding: 20px 0px;
+    text-align:center;
+}
+h3 {
+    padding: 10px;
+    text-align: center;
+}
